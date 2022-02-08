@@ -1,6 +1,6 @@
-aList = ["source/Justanub gets rekt_.mp4", "source/fundyclass.mp4", "source/DIDIGIVEFUNDYARELIC.mp4", "source/IWASNOTICED.mp4"]
-titleList = ["A clip of Justanub getting reks on a minecraft bending server", "Fundy realising he is beinh watched by a class", "Me possibly giving Fundy a relic on the Vault Hunter's server", "Being noticed by CarlSagan"]
-descList = ["This is on a Minecraft multiplayer avatar bending server. It was an air bender at the time and used my air powers to spin the TNT into the person who lit it.", "desc2", "desc3", "desc4"]
+aList = ["video1.mp4", "video2.mp4"]
+titleList = ["Title1", "Title2]
+descList = ["desc1", "desc2"]
 let currentVideo = 0;
 
 
