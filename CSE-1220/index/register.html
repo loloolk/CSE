@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boredom Page</title>
+        <link href="login.css" rel="stylesheet" type="text/css">
+        <link href="main\headerBar.css" rel="stylesheet" type="text/css">
+        <script src="register.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <nav class="headerBar">
+                <a href="index.html" aria-label="Logo"><img src="source/pfp.png" class="logo" aria-label="Logo"></a>
+                <a href="index.html" class="button" aria-label="Home"><b>Home</b></a>
+                <a href="fundy.html" class="button" aria-label="Fundy's Stream"><b>Fundy's Stream</b></a>
+                <a href="contact.html" class="button" aria-label="Contact"><b>Contact</b></a>
+                <a href="login.html" class="button" aria-label="Login"><b>Login</b></a>
+                <a href="register.html" class="button" aria-label="Register"><b>Register</b></a>
+            </nav>
+        </header>
+
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+        <form target="dummyframe" class="loginPage">
+            <div class="logo">
+              <img src="source/pfp.png" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" id="uName" required>
+                <br>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter FAKE Password" name="psw" id="psw" required>
+                <br>
+                <p id="welcome"></p>
+                <button type="submit" onclick=signUp()>Sign Up!</button>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn" href="index.html">Cancel</button>
+              <span class="psw"><a href="#">Forgot password?</a></span>
+            </div>
+          </form>
+    </body>
+</html>
