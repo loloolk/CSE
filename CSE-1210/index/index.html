@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> <!-- This part basically initializes the page and links all the files together -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boredom Page</title>
+    <link href="pfp.png" rel="icon" type="image/x-icon" />
+
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="headerBar.css" rel="stylesheet" type="text/css">
+    <link href="videoSwapper.css" rel="stylesheet" type="text/css">
+
+    <script src="index.js"></script>
+  </head>
+    
+  <body>
+    <header> <!-- This section is the bar at the top -->
+      <nav class="headerBar">
+        <a href="index.html" aria-label="Logo"><img src="source/pfp.png" class="logo" aria-label="Logo"></a>
+        <a href="index.html" class="button" aria-label="Home"><b>Home</b></a>
+        <a href="fundy.html" class="button" aria-label="Fundy's Stream"><b>Fundy's Stream</b></a>
+        <a href="contact.html" class="button" aria-label="Contact"><b>Contact</b></a>
+        <a href="login.html" class="button" aria-label="Login"><b>Login</b></a>
+        <a href="register.html" class="button" aria-label="Register"><b>Register</b></a>
+      </nav>
+    </header>
+        
+  	<div class="center"> <!-- This part is the title and description of the video -->
+      <h2>Welcome to this Website.</h2>
+      <h2>I made it while bored, so it's purpose it to try to get me unbored.</h2>
+      <br>
+      <h3 id="title">Video Title</h3>
+      <h4 id="desc">Video Description</h4>
+    </div>
+
+    <div class="box1"> <!-- This is the box that contains the video -->
+      <div class="leftArrow">
+        <a aria-label="Previous Video" class="lArrow" onclick=lastVideo()><img src="source/leftArrow.png" class="arrow"></a>
+      </div>
+      <div class="video" >
+        <video src="video1.mp4" id="video" controls autoplay>Video not supported</video>
+      </div>
+      <div class="rightArrow">
+        <a aria-label="Next Video" class="rArrow" onclick=nextVideo()><img src="source/rightArrow.png" class="arrow"></a>
+      </div>
+    </div>
+  </body>
+</html>
