@@ -1,0 +1,16 @@
+Computer Science 25
+February 08 2022
+Mr. Manning
+CSE 1210: Client-Side Scripting 2
+
+1.1) Static client-side web pages have fixed content (very boring) , whereas dynamic web pages have new content every time (eg. youtube, instagram ect). 1.2) Static websites are pretty much just displayed words, but with dynamic pages javascript is run on certain events, and when the page is loaded, and can use database management to change the page. 1.3) Dynamic pages are more fluid and can overlay items/make them disappear, whereas static ones can’t control what is seen or not seen as easily.
+
+2.1) There are very few things in (pure) html that can make websites dynamic, but one of them is forms, although most people just use JS instead due to its simplicity. CSS does not make a website dynamic however. 2.2 and 2.3 are included in the website attached.
+
+3.1) The role scripting languages have on web pages and the creation of websites, is fluid web pages, database management and pretty much everything good on a website. 3.2) On the other hand, HTML builds the web pages with words, images, sounds or videos. Thirdly, CSS decorates the webpage by changing colors, spacing and visibility. The scripting languages access the html and edit the elements and their properties. 3.3) Scripting languages have been around for a long time, and it used to be the only way to use computers. IBM’s JLC is the first scripting language, but it took a long time to run, and was typically not worth it. Then scriptable shells came out, and UNIX was especially impressive due to its ability to send the output of one program as the input to another. 3.4) Javascript is a popular language due to its ability to a) not need compiling and b) having the websites immediately interpreting them as html tags. Its also very easy to learn with easy syntax.
+
+All of the 4th question is included in the attached webpage.
+
+Still don’t really know what to do for this part, so I will assure you that I can be responsible and work with others.
+
+I’m not too interested in web development, but I still think it would be beneficial for me to make at least 1 website (that I’m not planning on publishing) that I can be proud of. I learnt html and css from codecademy originally, but then forgot it and used a phone app to relearn the html and css, and fully learn the javascript.
