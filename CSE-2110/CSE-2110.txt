@@ -1,0 +1,13 @@
+Computer Science 25
+June 06 2022
+Mr. Manning
+
+CSE 2110: Client-Side Scripting 1
+
+1) 1.1) The advantages of modular programming are very good, due to making bits of code very readable and simple, while also reducing the amount of times that code is repeated in the program. An example of this would be if you had a program, and you noticed that many times during that program, you could make a specific function that does that little bit of code, and just call the function every time, instead of having all the lines repeated
+   1.2) The programming environment I use (Visual Studio Code) supports procedural programming by color coding specific words, based on what they are, for example, variables are bule, function calls are yellow, key words such as if, else, switch and return are purple, and you can also go to definitions if you hold Ctrl and click.
+2) The compiler program I’ve been working on for the last few weeks completes every single one of these following requirements. It uses a lot of functions, and takes in data to be eventually converted into assembly, and then into an executable (.exe) file. I also made a function to check for syntax errors, so it would tell me if there were any issues, or things that went wrong. To show that I knew what to input into the functions, I used pointers to objects, instead of the objects themselves.
+3)
+4)
+5) Don’t really know what to do for this part, so I will assure you that I can be responsible and work with others.
+6) Honestly, the environment I’m currently using has been used by me for so long that I’m pretty sure that I’ve eliminated most if not all possible issues that I had with it. 
