@@ -1,1 +1,17 @@
-Computer Science 35
+Computer Science 25
+February 1, 2023
+Mr. Oulette
+CSE 3330: Dynamic Data Structures 2
+1) 
+1.1) Stacks are a list with the LIFO (last in first out) principle. Queues are lists with the FIFO (first in first out) principle. Stacks are used for backtracking, while queues are used for breadth-first search. Maps are a way to store key-value pairs, and are useful for restricted type conversions and for storing data in a way that is easy to access.
+1.2) Honestly, this is a pretty dumb instruction, there are so many different programming languages with so many diferences in syntax that there is no one specific way to make these data types. For example, in c++ there is no specific stack or queue class, but there is a vector class that acts like a list. this class had many functions (such as push_back() and pop_back()), which are completely different to languages like python where you use the append() function. there are also different ways of copying, searching, checking equality and deleting them for each language.
+1.3) There are no concrete advantages or disadvanteges to using eithes of these three things, it all depends on the situation. For example, if you are using a stack to implement a backtracking algorithm, then you would want to use a stack, but if you are using a queue to implement a breadth-first search, then you would want to use a queue. Maps are useful for storing data in a way that is easy to access, but they are not useful for storing data in a way that is easy to search.
+2)
+2.1-2.6) This was too simple for me, so instead I decided to recreate a new data structure from scratch in c. I made something called a "Linked List" the simple concept of a linked list is that it is made up of ndes, and each node has data, and a pointer to the next node (hence the name "Linked"). Sure, this isn't a stack or queue, but it can easily be converted to one, simply by making the functions for it. I made a few functions, but I didn't feel like going through the C# documentation (which seems to be what the CSE guide was based on, due to the specific naming of these classes) and rewrite it all in c (there are a lot of functions). I just made some basic necessities, like create, print, append, insert, select and delete.
+(code attached)
+3)
+3.1-3.4) Basically the same as above.
+4)
+4.1) I had to use a program called valgrind tom make sure that there were no memory leaks in my code (they can be very bad)
+4.2) The outcome was to make a working linked list, and I did that.
+5-6) Ignored because they are on every single project.
