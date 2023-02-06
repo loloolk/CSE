@@ -1,0 +1,13 @@
+Computer Science 25
+February 6, 2023
+Mr. Oulette
+CSE-3120: Object-Oriented Programming 1
+1)
+1.1) the main thing that OOP is used for is encapsulation of objects, within other objects.
+This is useful because it allows for the creation of objects that are more complex than the default types.
+Inheritance allows for those objects to be organised into a tree structure, which allows for the creation of even more complex objects.
+Modularity and polymorphism allow for the creation of objects that can be used in a variety of ways, and can be used in a variety of places.
+1.2) The main difference between OOP and procedural programming is that OOP is based on the idea of objects, while procedural programming is based on the idea of functions.
+2)
+(See "oop.cpp" file)
+3-4) These are just saying "make sure it can run". my program can run, and I didnt have to change anything.
