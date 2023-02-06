@@ -16,21 +16,21 @@ struct LinkedList {
 #include <stdio.h>
 #include <stdlib.h>
 
-Node* createNode(int data) {
+Node* createNode(int data) { // creates a new Node
     Node* node = malloc(sizeof(Node));
     node->data = data;
     node->next = NULL;
     return node;
 }
 
-LinkedList* createLinkedList(int data) {
+LinkedList* createLinkedList(int data) { // creates a new LinkedList
     LinkedList* list = malloc(sizeof(LinkedList));
     list->head = createNode(data);
     list->tail = list->head;
     list->size = 1;
     return list;
 }
-LinkedList* copyLinkedList(LinkedList* list) {
+LinkedList* copyLinkedList(LinkedList* list) { // creates a new LinkedList with the same data as the original
     Node* indexNode = list->head;
 
     LinkedList* newList = createLinkedList(indexNode->data);
@@ -44,7 +44,7 @@ LinkedList* copyLinkedList(LinkedList* list) {
 
     return newList;
 }
-void deleteLinkedList(LinkedList* list) {
+void deleteLinkedList(LinkedList* list) { // deletes the LinkedList
     Node* indexNode = list->head;
 
     for (int i = 0; i < list->size; i++) {
@@ -56,7 +56,7 @@ void deleteLinkedList(LinkedList* list) {
     free(list);
 }
 
-Node* selectNode(LinkedList* list, int index) {
+Node* selectNode(LinkedList* list, int index) { // gets the Node at that index
     // makes sure the index is not out of range
     if (index > list->size && index >= 0) {
         return NULL;
@@ -70,7 +70,7 @@ Node* selectNode(LinkedList* list, int index) {
 
     return indexNode;
 }
-void append(LinkedList* list, int data) {
+void append(LinkedList* list, int data) { // adds a new Node to the end of the list
     // get the last Node of the list
     Node* indexNode = list->head;
     for (int i = 0; i < list->size; i++) {
@@ -84,7 +84,7 @@ void append(LinkedList* list, int data) {
     // updates the list size
     list->size++;
 }
-void insertNode(LinkedList* list, int index, int data) {
+void insertNode(LinkedList* list, int index, int data) { // inserts a new Node at that index
     // Makes sure the index is not out of range
     if (index > list->size && index >= 0) {
         return;
@@ -104,7 +104,7 @@ void insertNode(LinkedList* list, int index, int data) {
     // updates the size of the list
     list->size++;
 }
-void deleteNode(LinkedList* list, int index) {
+void deleteNode(LinkedList* list, int index) { // deletes the Node at that index
     // makes sure the index in not out of range
     if (index > list->size && index >= 0) {
         return;
@@ -126,7 +126,7 @@ void deleteNode(LinkedList* list, int index) {
     // updates the size of the list
     list->size--;
 }
-void printList(LinkedList* list) {
+void printList(LinkedList* list) { // prints the data of each Node in the list
     // gets the first Node
     Node* indexNode = list->head;
 
@@ -136,20 +136,4 @@ void printList(LinkedList* list) {
         indexNode = indexNode->next;
     }
     printf("NULL\n");
-}
-
-int main() {
-    LinkedList* list = createLinkedList(6);
-    append(list, 2);
-    append(list, 3);
-    append(list, 4);
-    append(list, 5);
-    append(list, 70);
-
-    LinkedList* list2 = copyLinkedList(list);
-
-    deleteLinkedList(list);
-
-    printList(list);
-    printList(list2);
 }
