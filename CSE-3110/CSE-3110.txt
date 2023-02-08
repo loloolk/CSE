@@ -1,0 +1,24 @@
+Computer Science 25
+February 6, 2023
+Mr. Oulette
+CSE-3110: Iterative Algorithm 1
+1)
+1.1) Search, sort and merge algorithms (for arrays) all use loops to iterate through the data.
+1.2) Search finds data, Sort organizes data, and Merge combines data.
+1.3) The main data structure they are used n in lists, but you can create different versions of these
+algorithms for many other data structures.
+1.4) Search goes through the list, until it finds the data, or reaches the end of the list. (worst TC is O(n))
+There are many ways to mke a sort algorithm, but the most common is to use two loops to go through the list
+and swap the places of the data. (worst TC is O(n^2))
+Merge makes a new list after going through two lists, and comparing the data in them. (worst TC is O(n1+n2))
+1.5) Linear search goes through the list, and compares the data to the data you are looking for. (worst TC is O(n))
+Binary search goes through the list, but only compares the data to the data you are looking for. (worst TC is O(log n))
+1.6) Exchange sort goes through the list, and compares the data to the data next to it. If the data is larger than
+the data next to it, it swaps the places of the data.
+Selection sort is like exchange sort but the swap happens at the end of the iteration.
+Insertion sort build a new list, and goes through the list, and compares the data to the data in the new list.
+1.7) Merge sort is rarely used, but if it is you can customize a bunch of stuff, like if duplicates are
+used, or if the data is sorted in a specific way.
+2)
+(see "iteration.py")
+3-4) These are just saying "make sure it can run". my program can run, and I didnt have to change anything.
